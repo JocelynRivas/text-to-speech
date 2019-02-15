@@ -39,14 +39,15 @@
     
     <h1 class="mdc-typography--display1">Hello, World!</h1>
     
-    // INPUTTING A BUTTON with w3schools.com by searching "html text input" on the search engine
+    <!--// INPUTTING A BUTTON with w3schools.com by searching "html text input" on the search engine -->
+    
     <input type="text" name="phrase" id="phrase">
     
     <button type="button" class="special mdc-button mdc-button--raised">
       Say phrase
     </button>
     
-    // WORD "Stanadard" addded to differentiate specific buttons
+    <!--// WORD "Stanadard" addded to differentiate specific buttons -->
     
     <button type="button" class="standard mdc-button mdc-button--raised">
       I know it was you, Fredo.
@@ -94,7 +95,7 @@
         
         
         // reusable function to use the speech API
-        // line 92 function is the API synthesis  
+       <!-- // line 92 function is the API synthesis  -->
       
          function sayIt (setOfWords) {
            var msg = new SpeechSynthesisUtterance(setOfWords);
@@ -104,8 +105,8 @@
         
             
         // hook up event handler on the buttons
-        // line 102 signals that when click happens must apply function
-        // line 103 doesn't make sense
+        <!-- // line 102 signals that when click happens must apply function
+        // line 103 doesn't make sense -->
         
          $("button.standard").on("click", function() {
            sayIt($(this).text());
